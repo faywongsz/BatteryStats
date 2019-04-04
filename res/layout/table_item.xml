@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <View 
+        android:id="@+id/topDiv"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#000000"/>
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topDiv">
+        
+        <View 
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+        
+        <TextView 
+            android:id="@+id/percent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+        
+        <View 
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+        
+        <TextView 
+            android:id="@+id/total_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+        
+        <View 
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+        
+        <TextView 
+            android:id="@+id/indivi_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+        
+        <View 
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+        
+        <TextView 
+            android:id="@+id/volt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+        
+        <View 
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+    </LinearLayout>
+    
+    <View 
+        android:id="@+id/bottomDiv"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#000000"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"/>
+    
+</RelativeLayout>
